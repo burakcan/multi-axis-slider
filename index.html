@@ -1,65 +1,16 @@
-<!doctype html>
-<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
-<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on http://github.com/jonrohan -->
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
-  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen"/>
-  <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script type="text/javascript" src="javascripts/script.js"></script>
-
-  <title>Multi axis slider</title>
-  <meta name="description" content="A multi axis slider implementation">
-
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-
-</head>
-
-<body>
-
-  <div class="wrapper">
-    <header>
-      <h1 class="title">Multi axis slider</h1>
-    </header>
-    <div id="container">
-      <p class="tagline">A multi axis slider implementation</p>
-      <div id="main" role="main">
-        <div class="download-bar">
-        <div class="inner">
-          <a href="https://github.com/neoberg/multi-axis-slider/tarball/master" class="download-button tar"><span>Download</span></a>
-          <a href="https://github.com/neoberg/multi-axis-slider/zipball/master" class="download-button zip"><span>Download</span></a>
-          <a href="https://github.com/neoberg/multi-axis-slider" class="code">View Multi axis slider on GitHub</a>
-        </div>
-        <span class="blc"></span><span class="trc"></span>
-        </div>
-        <article class="markdown-body">
-          <h1>
-<a name="multi-axis-slider" class="anchor" href="#multi-axis-slider"><span class="octicon octicon-link"></span></a>multi axis slider</h1>
-
-<p>A multi axis slider implementation</p>
-        </article>
-      </div>
-    </div>
-    <footer>
-      <div class="owner">
-      <p><a href="https://github.com/neoberg" class="avatar"><img src="https://secure.gravatar.com/avatar/f127e00bc3d4df71c72089e11532529b?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="48" height="48"/></a> <a href="https://github.com/neoberg">neoberg</a> maintains <a href="https://github.com/neoberg/multi-axis-slider">Multi axis slider</a></p>
-
-
-      </div>
-      <div class="creds">
-        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br/>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
-      </div>
-    </footer>
-  </div>
-  <div class="current-section">
-    <a href="#top">Scroll to top</a>
-    <a href="https://github.com/neoberg/multi-axis-slider/tarball/master" class="tar">tar</a><a href="https://github.com/neoberg/multi-axis-slider/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
-    <p class="name"></p>
-  </div>
-
-  
-</body>
+  <head>
+    <link href="maxis.css" rel="stylesheet" type="text/css">
+  	<script src="maxis.js" type="text/javascript"></script>
+	</head>
+	<body>
+    <figure id="multiSlide" class="multiSlide"></figure>
+    <nav id="multiSlideNav" class="multiSlideNav">
+      <a href="#" id="top" class="navButton"><</a>
+      <a href="#" id="bottom" class="navButton">></a>
+      <a href="#" id="left" class="navButton"><</a>
+      <a href="#" id="right" class="navButton">></a>
+    </nav>
+  </body>
 </html>
